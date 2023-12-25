@@ -50,6 +50,9 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.project-link:hover {
+  color: white;
+}
 
 .secondary-link {
   border-radius: 4px;
@@ -129,6 +132,11 @@ p {
     margin-top: 5px;
     margin-bottom: 20px;
     width: 90%;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 
   .aboutimages {
